@@ -31,7 +31,7 @@ function validarCadastro() {
       emailELemento.classList.add("is-invalid")
       return;
     }if (!validarSenha(senha)) {
-      mostrarErro("A senha deve ter no mínimo 8 caracteres, com ao menos uma letra maiúscula e uma minúscula.",senhaElemento);
+      mostrarErro("A senha deve ter no mínimo 8 caracteres, com ao menos uma letra maiúscula, uma minúscula e um caractere especial.",senhaElemento);
       senhaElemento.classList.add("is-invalid")
       return;
     }if (!validarCPF(cpf)) {
